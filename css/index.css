@@ -66,6 +66,36 @@ p {
     line-height: 1.4;
 }
 
+/* navigation styling */
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    margin-left: 0px;
+} 
+
+
+.logo{
+    /* margin-right: 100px; */
+}
+
+/* first pic */
+.first-pic{
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,12 +134,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-one{
+    background: teal;
+}
+
+.box-two{
+    background: gold;
+}
+
+.box-three{
+    background: cadetblue;
+}
+
+.box-four{
+    background: coral;
+}
+
+.box-five{
+    background: crimson;
+}
+
+.box-six{
+    background: forestgreen;
+}
+
+.box-seven{
+    background: darkorchid;
+}
+
+.box-eight{
+    background: hotpink;
+}
+
+.box-nine{
+    background: indigo;
+}
+
+.box-ten{
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -136,11 +206,93 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    /* padding: 20px 2%; */
     font-size: 14px;
+    margin-bottom: 0;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 15px;
+}
+
+/* About page styling */
+
+.container, .about-page{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Section one styling */
+.section-one{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+
+/* top about image */
+.top-about{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Section 2 styling */
+.section-two {
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.section-two div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 50px;
+}
+.section-two img{
+    padding-bottom: 10px;
+}
+
+/* links */
+.link{
+	text-decoration: none;
+	color: black;
+	padding: 8px 20px 8px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border: 1.5px solid black;
+	border-radius: 5px;
+	background-color: white;
+	text-align: center;
+	width: 30%;
+}
+
+.section-three {
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-three div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+
+.section-three img{
+    padding-bottom: 10px;
+}
+
+.section-four{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 2%;
+    padding-bottom: 20px;
 }

@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is using tags that have meaning. For example, the h1 tag is the biggest header and if you use it on a title, it will make it the biggest on the page. The p tag means paragraph and it puts the contents on a separate line.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+    1. You can set a height and width with 'display: block;' but not 'display: inline;'.
+    2. 'display: block;' takes the maximum width that is available and 'display: inline;' takes only as much as it needs.
 3. What are the 4 areas of the box model?
-
+    1. content
+    2. padding
+    3. margin
+    4. border
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The cross axis.
 
 5. Explain why git is valuable to a team of developers.
+    You can fork repos so that you don't change the master copy. You can share changes with your team and make changes as much as you want.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

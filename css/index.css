@@ -85,10 +85,6 @@ nav a{
 } 
 
 
-.logo{
-    /* margin-right: 100px; */
-}
-
 /* first pic */
 .first-pic{
     margin-top: 20px;
@@ -300,61 +296,177 @@ footer nav a {
 
 /* Blog styling */
 
+.body section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
 /* Header styling */
 
 .header h1{
     text-align: center;
     padding: 10px 10px 0px 10px;
-    color: black;
-    font-family: 'Snell Roundhand', cursive;
-    font-size: 80px;
+    font-family: 'Stint Ultra Condensed';
+    letter-spacing: 10px; 
+    text-transform: uppercase;
+    font-size: 50px;
     margin-bottom: 0px;
 }
 
 .header span{
     color: crimson;
+    font-family: 'Great Vibes', cursive;
 }
 
 .header h2{
     text-align: center;
     color: black;
-    font-family: 'Arial Narrow', sans-serif;
-    font-size: 20px;
-}
+    padding-top:5px;
+    font-family: 'Parisienne', cursive;
+    font-size: 30px;
+} 
+
 
 .body img{
     height: 200px;
     width: 300px;
 }
 
-.body h2{
-    text-align: center;
-    color: black;
-    font-family: 'Arial Narrow', sans-serif;
-    font-size: 40px;
-    padding-top: 30px;
-}
 
 /* Section 1 Styling */
 
-.blog-section1{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
+#article-one {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-one a{
+    text-decoration: none;
+    color: black;
+}
+#article-one h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#article-two {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-two a{
+    text-decoration: none;
+    color: black;
+}
+
+#article-two h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* #article-two img{
+    margin-top: 0;
+} */
+
+#article-three {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-three a{
+    text-decoration: none;
+    color: black;
+}
+
+#article-three h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Section 2 styling */
 
-.blog-section2{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
+#article-four {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-four a{
+    text-decoration: none;
+    color: black;
+}
+#article-four h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#article-five {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-five a{
+    text-decoration: none;
+    color: black;
+}
+#article-five h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#article-six {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
+#article-six a{
+    text-decoration: none;
+    color: black;
+}
+#article-six h3{
+    color: crimson;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Section 3 styling */
-
-.blog-section3{
+/* .blog-section3{
     display: flex;
-    flex-direction: column;
-    width: 33%;
+    align-items: flex-end;
+} */
+
+.older-posts{
+	text-decoration: none;
+	color: black;
+	padding: 8px 20px 8px;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border: 1px solid crimson;
+	border-radius: 15px;
+	background-color: white;
+    font-family: 'Big Shoulders Display';
+    letter-spacing: 2px;
+    margin-left: 680px;
+}
+
+.older-posts:after {
+    content:'\25BA'
 }
